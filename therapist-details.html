@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Therapist Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="details-container">
+    <div class="details-form-box">
+        <h1 id="title">Therapist Details</h1>
+        <form id="therapistDetailsForm">
+            <div class="details-input-group">
+                <div class="left-column">
+                    <div class="details-input-field">
+                        <label for="therapistName">Name <span class="required">*</span></label>
+                        <input type="text" id="therapistName" placeholder="Enter Name" required>
+                    </div>
+                    <div class="details-input-field">
+                        <label for="therapistAddress1">Address 1 <span class="required">*</span></label>
+                        <input type="text" id="therapistAddress1" placeholder="Enter Address 1" required>
+                    </div>
+                    <div class="details-input-field">
+                        <label for="therapistAddress2">Address 2 <span class="required">*</span></label>
+                        <input type="text" id="therapistAddress2" placeholder="Enter Address 2" required>
+                    </div>
+                    <div class="details-input-field">
+                        <label for="therapistPincode">Pincode <span class="required">*</span></label>
+                        <input type="text" id="therapistPincode" placeholder="Enter Pincode" required>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div class="details-input-field">
+                        <label for="therapistQualification">Qualification <span class="required">*</span></label>
+                        <input type="text" id="therapistQualification" placeholder="Enter Qualification" required>
+                    </div>
+                    <div class="details-input-field">
+                        <label for="therapistCertification">Certification <span class="required">*</span></label>
+                        <input type="text" id="therapistCertification" placeholder="Enter Certification" required>
+                    </div>
+                    <div class="details-input-field">
+                        <label for="therapistAffiliations">Affiliations <span class="required">*</span></label>
+                        <input type="text" id="therapistAffiliations" placeholder="Enter Affiliations" required>
+                    </div>
+                    <div class="details-input-field">
+                        <label for="therapistExperience">Experience <span class="required">*</span></label>
+                        <input type="text" id="therapistExperience" placeholder="Enter Experience" required>
+                    </div>
+                </div>
+            </div>
+            <div class="file-input-group">
+                <label for="qualificationUpload" class="file-input-label">Upload Qualification <span class="required">*</span></label>
+                <input type="file" id="qualificationUpload" class="file-input" required>
+            </div>
+            <div class="file-input-group">
+                <label for="certificationUpload" class="file-input-label">Upload Certification <span class="required">*</span></label>
+                <input type="file" id="certificationUpload" class="file-input" required>
+            </div>
+            <div class="file-input-group">
+                <label for="affiliationsUpload" class="file-input-label">Upload Affiliations (if any) <span class="required"></span></label>
+                <input type="file" id="affiliationsUpload" class="file-input" required>
+            </div>
+            <div class="details-btn-field">
+                <button type="button" id="saveTherapistDetailsBtn">Save Details</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

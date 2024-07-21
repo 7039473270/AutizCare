@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="details-container">
+    <div class="details-form-box">
+        <h1 id="title">Patient Details</h1>
+        <form id="patientDetailsForm">
+            <div class="details-input-group">
+                <div class="left-column">
+                    <div class="details-input-field">
+                        <label for="patientName">Name <span class="required">*</span></label>
+                        <input type="text" id="patientName" placeholder="Enter Name" required>
+                    </div>
+                    <div class="details-input-field">
+                        <label for="patientAge">Age <span class="required">*</span></label>
+                        <input type="number" id="patientAge" placeholder="Enter Age" required>
+                    </div>
+                    <div class="details-input-field">
+                        <label for="patientAddress1">Address 1 <span class="required">*</span></label>
+                        <input type="text" id="patientAddress1" placeholder="Enter Address 1" required>
+                    </div>
+                    <div class="details-input-field">
+                        <label for="patientAddress2">Address 2 <span class="required">*</span></label>
+                        <input type="text" id="patientAddress2" placeholder="Enter Address 2" required>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div class="details-input-field">
+                        <label for="patientPincode">Pincode <span class="required">*</span></label>
+                        <input type="text" id="patientPincode" placeholder="Enter Pincode" required>
+                    </div>
+                    <div class="details-input-field">
+                        <label for="patientDiagnosis">Diagnosis <span class="required">*</span></label>
+                        <input type="text" id="patientDiagnosis" placeholder="Enter Diagnosis" required>
+                    </div>
+                    <div class="details-input-field">
+                        <label for="patientTherapy">Therapy Taken <span class="required">*</span></label>
+                        <input type="text" id="patientTherapy" placeholder="Enter Therapy Taken" required>
+                    </div>
+                    <div class="details-input-field">
+                        <label for="patientMedications">Medications if any <span class="required"></span></label>
+                        <input type="text" id="patientMedications" placeholder="Enter Medications" required>
+                    </div>
+                </div>
+            </div>
+            <div class="details-btn-field">
+                <button type="button" id="savePatientDetailsBtn">Save Details</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
